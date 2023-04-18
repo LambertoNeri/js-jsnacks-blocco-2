@@ -36,12 +36,10 @@ for ( let i = 0; i <= 20; i++) {
     let number = Math.floor(Math.random() * 11) + 1;
     let numberTwo = Math.floor(Math.random() * 11) + 1;
     myRandomList.push(names[(number - 1)] + surnames[(numberTwo - 1)])
-    console.log ('questo è il numero 1', number)
-    console.log ('questo è il numero 2', numberTwo)
-
 }
-
-console.log (myRandomList)
+console.log ('LISTA Nomi:', names)
+console.log ('LISTA Cognomi:', surnames)
+console.log ('Lista Nomi e Cognomi random', myRandomList)
 
 /*
 for ( let i = 0; i < 10; i++) {
