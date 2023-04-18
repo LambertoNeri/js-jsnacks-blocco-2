@@ -29,8 +29,6 @@ const surnames = [
     'Colosseo',
 ]
 
-let myArrNames = []
-let myArrSurnames = []
 let myRandomList = []
 
 
