@@ -3,7 +3,6 @@ Crea un array vuoto.
 Chiedi per 6 volte all’utente di inserire un numero,
 se è dispari inseriscilo nell’array.  */
 let numbers;
-let verifier = false;
 let myArr = [];
 
 for ( let i = 0; i < 6; i++ ) {
@@ -14,11 +13,8 @@ for ( let i = 0; i < 6; i++ ) {
    } else if (isNaN(numbers)) {
     console.log ('not a number', numbers)
    } else {
-    verifier = true
     console.log ('dispari', numbers);
-    if (verifier == true) {
-        (myArr.push(numbers))
-    }
+    myArr.push(numbers)
    }
 }
 
