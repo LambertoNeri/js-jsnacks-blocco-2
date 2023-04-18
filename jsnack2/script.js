@@ -40,7 +40,7 @@ console.log (myArrSurnames)
 
 for ( let i = 0; i <= myArrNames.length; i++) {
     let number = Math.floor(Math.random() * 10) + 1;
-    myRandomList.push(myArrNames[(number - 1)], myArrSurnames[(number - 1)])
+    myRandomList.push(myArrNames[(number - 1)] + myArrSurnames[(number - 1)])
 }
 
 console.log (myRandomList)
